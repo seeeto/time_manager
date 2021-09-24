@@ -1,10 +1,10 @@
 import React from 'react'
-import { StopWatchForm } from './components/StopWatchForm'
+import Router from './Router'
 
 const App: React.FC = () => {
   return (
     <div>
-      <StopWatchForm />
+      <Router />;
     </div>
   )
 }
